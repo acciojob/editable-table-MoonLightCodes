@@ -3,7 +3,7 @@ import "./../styles/App.css";
 
 const App = () => {
   const [arr, setArr] = useState(() =>
-    Array.from({ length: 20 }, () => {
+    Array.from({ length: 6 }, () => {
       return {
         original:"",
         name: "",
